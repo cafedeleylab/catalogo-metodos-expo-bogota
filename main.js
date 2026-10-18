@@ -10,6 +10,7 @@ const groups = [
   { id: 'holders', title: 'Holders', subtitle: 'Soportes Origami', family: 'Accesorios', productIds: ['holders'] },
   { id: 'taza', title: 'Taza sensorial', subtitle: 'Origami', family: 'Accesorios', productIds: ['taza-sensorial'] },
   { id: 'flower', title: 'Flower', subtitle: 'Métodos de extracción', family: 'Flower', productIds: ['flower-27', 'flower-tritan', 'flower-oval'] },
+  { id: 'filtros', title: 'Filtros CAFEC 4 tazas', subtitle: 'TH-1 · TH-2 · TH-3', family: 'Filtros', productIds: ['cafec-th-1', 'cafec-th-2', 'cafec-th-3'] },
 ];
 
 function productCard(product) {
@@ -24,7 +25,7 @@ function productCard(product) {
       ${photos}
       <span class="product-family">${product.family}</span>
     </div>
-    <div class="availability-row"><span class="availability-pill">Pregunta por colores disponibles</span></div>
+    <div class="availability-row"><span class="availability-pill">${product.availabilityLabel ?? 'Pregunta por colores disponibles'}</span></div>
     <div class="product-info">
       <span class="product-type">${product.type}</span>
       <h3>${product.name}</h3>

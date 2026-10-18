@@ -1,4 +1,4 @@
-# Catálogo de métodos — Café de Ley × Expresiones
+# Catálogo de métodos — Café de Ley
 
 Sitio estático listo para subir a GitHub y publicar en Vercel. No requiere instalación ni proceso de compilación.
 
