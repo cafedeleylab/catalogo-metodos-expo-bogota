@@ -55,4 +55,22 @@ export const products = [
     ],
     source: 'https://cafecusa.com/products/preorder-cafec-flower-oval-dripper-101-for-1-2-cups-fdo-101-copy',
   },
+  {
+    id: 'cafec-th-1', name: 'TH-1', family: 'Filtros', type: 'Papel CAFEC · 4 tazas',
+    prices: [{ label: 'Precio', value: 50000 }],
+    photos: [{ src: './cafec-th-1.svg', alt: 'Paquete de filtros CAFEC TH-1 para 4 tazas' }],
+    availabilityLabel: 'Consulta disponibilidad',
+  },
+  {
+    id: 'cafec-th-2', name: 'TH-2', family: 'Filtros', type: 'Papel CAFEC · 4 tazas',
+    prices: [{ label: 'Precio', value: 50000 }],
+    photos: [{ src: './cafec-th-2.svg', alt: 'Paquete de filtros CAFEC TH-2 para 4 tazas' }],
+    availabilityLabel: 'Consulta disponibilidad',
+  },
+  {
+    id: 'cafec-th-3', name: 'TH-3', family: 'Filtros', type: 'Papel CAFEC · 4 tazas',
+    prices: [{ label: 'Precio', value: 50000 }],
+    photos: [{ src: './cafec-th-3.svg', alt: 'Paquete de filtros CAFEC TH-3 para 4 tazas' }],
+    availabilityLabel: 'Consulta disponibilidad',
+  },
 ];
