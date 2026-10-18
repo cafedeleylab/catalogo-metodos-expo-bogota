@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07090e" />
+    <meta name="description" content="Catálogo de métodos de extracción de Café de Ley y Expresiones en Colombia." />
+    <title>Catálogo de métodos · Café de Ley y Expresiones</title>
+    <link rel="icon" type="image/png" href="./logo-cafe-de-ley-blanco.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="site-header" id="top">
+      <a class="header-brand" href="#top" aria-label="Café de Ley, ir al inicio"><img src="./logo-cafe-de-ley-blanco.png" alt="Café de Ley" /></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="hero-kicker">CAFÉ DE LEY × EXPRESIONES</p>
+          <div class="hero-brands" aria-label="Café de Ley y Expresiones">
+            <img src="./logo-cafe-de-ley-blanco.png" alt="Café de Ley" />
+            <span class="brand-separator" aria-hidden="true">×</span>
+            <img class="expresiones-logo" src="./logo-expresiones.png" alt="Expresiones, compañía de cafés" />
+          </div>
+          <h1 id="hero-title">Métodos para preparar<br /><span>tu café.</span></h1>
+          <p class="hero-description">Café de Ley y Expresiones se unen para traerte una selección de métodos de extracción.</p>
+        </div>
+        <div class="hero-line" aria-hidden="true"></div>
+      </section>
+
+      <section class="catalog" id="catalogo" aria-labelledby="catalog-title">
+        <div class="catalog-header reveal">
+          <p class="section-kicker">DISPONIBLES PARA EXPOSICIÓN BOGOTÁ 2026</p>
+          <h2 id="catalog-title">Catálogo de métodos<span>.</span></h2>
+          <p class="catalog-note">Elige el método que te interesa y consulta su disponibilidad en la exposición.</p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Filtrar productos por tipo">
+          <button type="button" class="filter-chip active" data-family="Todos" aria-pressed="true">Todos</button>
+          <button type="button" class="filter-chip" data-family="Origami" aria-pressed="false">Origami</button>
+          <button type="button" class="filter-chip" data-family="Flower" aria-pressed="false">Flower</button>
+          <button type="button" class="filter-chip" data-family="Accesorios" aria-pressed="false">Accesorios</button>
+        </div>
+        <p class="photo-note">Fotografías de referencia · Consulta disponibilidad en la exposición</p>
+        <div id="catalog-groups"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© Café de Ley × Expresiones</span><span>Fotografías: <a href="https://origami-kai.com/en/products/origami_dripper_m" target="_blank" rel="noopener noreferrer">Origami</a> y <a href="https://cafecusa.com/collections/drippers" target="_blank" rel="noopener noreferrer">CAFEC</a></span><a href="#top">Volver arriba ↑</a></footer>
+  </body>
+</html>
